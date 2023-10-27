@@ -5,12 +5,12 @@ module.exports = {
   entry: "./scr/js/index.js",
   mode: "none",
   output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    filename: "js/main.js",
+    path: path.resolve(__dirname, "docs"),
   },
 
   devServer: {
-    static: "./dist",
+    static: "./docs",
   },
 
   plugins: [
